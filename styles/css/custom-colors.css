@@ -1,0 +1,77 @@
+/* Menu */
+.navbar {
+	border-bottom: 1px solid #ddd;
+}
+
+.navbar-nav > li,
+.navbar-nav > li.active  {
+	background-color: #FFF;
+}
+
+.navbar-nav > li > a {
+	background-color: inherit;
+	color: #ccc;
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #FFF;
+	border-bottom: 2px solid #FFF;
+}
+
+.navbar-nav > li > a:hover, 
+.navbar-nav > li > a:focus {
+	background-color: inherit;
+}
+
+.navbar-nav > li > a:hover {
+		color: #393185;
+	border-bottom: 2px solid #393185; 
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus   {
+	color: #393185;
+	border-bottom: 2px solid #393185; 
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.navbar-toggle {
+	border: 2px solid #393185;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #393185;
+}
+
+/* Conteúdo */
+section {
+	border-color: #ddd;
+}
+
+.jumbotron {
+	background-color: transparent;
+	color: #666;
+}
+
+.jumbotron h1,
+.jumbotron h2,
+.jumbotron h3,
+.jumbotron h4,
+.jumbotron h5,
+.jumbotron h6
+ {
+	color: #393185;
+}
+
+.btn {
+	background-color: #393185;
+	border-color: #393185;
+}
+
+.btn:hover {
+	background-color: #393185;
+	border-color: #393185;
+}

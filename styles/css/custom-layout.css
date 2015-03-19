@@ -1,0 +1,78 @@
+/* Body */
+body {
+	background-image: url("../../images/graph.png");
+	position: relative;
+}
+
+/* Menu */
+.navbar {
+	margin: 0;
+	background-color: #FFF;
+}
+.navbar-nav > li > a {
+	padding-top: 2.8em;
+	padding-bottom: 1.5em;
+	font-size: 1.5em;
+}
+
+.navbar #brand-img {
+	padding-top: .5em;
+	width: 13em;
+}
+
+.navbar #brand-img.mob {
+	padding-top: 1em;
+	width: 10em;
+}
+
+.navbar-header {
+	height: 8em;
+}
+
+.navbar-toggle {
+	margin-top: 3em;
+
+	width: 3.2em;
+	border: 2px solid #393185;
+}
+
+.navbar-toggle .icon-bar {
+  width: 100%;
+}
+
+/* Conteúdo */
+section {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-top: 1px solid;
+	padding: 8em 0;
+	margin: 0;
+}
+
+.jumbotron {
+	margin: 0;
+	padding: 4em 0;
+	height: 100%;
+}
+
+.appear-fade-in {
+	opacity: 0;
+	position:relative;
+}
+
+.appear-fade-in.appear-left {
+	left: -4em;
+}
+
+.appear-fade-in.appear-right {
+	right: -4em;
+}
+
+.appear-fade-in.appear-top {
+	top: -2em;
+}
+
+.appear-fade-in.appear-bottom {
+	bottom: -2em;
+}
